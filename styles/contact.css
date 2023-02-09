@@ -1,0 +1,149 @@
+.contact{
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightgray;
+}
+.gris{
+    color: gray;
+}
+.contact-wrapper{
+    display: flex;
+}
+.contact-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+}
+.contact-h2{
+    font-size: 1.5rem;
+    padding: 5px 0;
+    color: var(--text-color);
+}
+.contact-span{
+    color: gray;
+}
+.contact-h2::first-letter{
+    font-size: 30px;
+    color: var(--first-color);
+    font-weight: 600;
+    
+}
+
+.contact-hr{
+    border: none;
+    height: 1px;
+    background: gray;
+}
+.contact-rows{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.contact-h3:first-letter{
+    font-size: 19px;
+    color: var(--first-color);
+    font-weight: 600;
+}
+.contact-row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contact-id{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-phone{
+    font-size: .8rem;
+    color: gray;
+}
+.contact-face{
+    padding: 8px;
+    border: 1px solid gray;
+    cursor: pointer;
+    color: gray;
+}
+.contact-face:hover{
+    transform: scale(1.1);
+}
+.contact-right{
+    flex: 1;
+    background: #12141c;
+    padding: 40px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.contact-form{
+    padding: 20px 0;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+}
+.form-control{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.contact-input{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    background: rgb(245, 227, 227);
+    border-radius: 5px;
+}
+.contact-text{
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    background: rgb(245, 227, 227);
+    border-radius: 5px
+}
+input[type="submit"]{
+    width: max-content;
+    padding: 10px 20px;
+    border: none;
+    color: var(--white);
+    background: var(--first-color);
+    font-size: .8rem;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px){
+    .contact{
+        height: auto;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .contact-left{
+        padding: 47px;
+    }
+}
+
+
+@media screen and (max-width: 414px){
+    .contact-left{
+        padding: 38px;
+    }
+    .contact-right{
+        flex: 1;
+        background: #12141c;
+        padding: 20px;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 390px){
+
+}

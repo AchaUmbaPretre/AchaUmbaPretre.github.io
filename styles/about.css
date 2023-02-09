@@ -1,0 +1,20 @@
+.about2{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.322) ), url('./../assets/about.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.about2-accueil{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--white);
+}
+.about2-accueil:hover{
+    color: var(--first-color);
+}
+.about2-container{
+    margin: 50px 0;
+}
