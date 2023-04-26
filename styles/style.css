@@ -170,11 +170,18 @@ a{
 }
 .login-xmark{
     position: absolute;
-    top:50px;
-    right: 50px;
+    top:290px;
+    right: 470px;
     color: var(--first-color);
     font-size: 20px;
     cursor: pointer;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #555;
+    border-radius: 50%;
 }
 .login-xmark:hover{
     color: var(--white);
@@ -1308,6 +1315,10 @@ footer{
         margin: 0 auto;
         padding: 50px 0;
         overflow: hidden;
+    }
+    .login-xmark{
+        top:280px;
+        right: 40px;
     }
     .header-h2{
         margin-bottom: 20px;
